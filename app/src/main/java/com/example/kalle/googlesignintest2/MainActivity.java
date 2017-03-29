@@ -23,6 +23,7 @@ import com.google.firebase.auth.*;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener,
         View.OnClickListener{
+    private String test2;
     private String test;
     private GoogleApiClient mGoogleApiClient;
     private FirebaseAuth mAuth;
